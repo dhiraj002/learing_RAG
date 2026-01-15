@@ -1,8 +1,9 @@
 {
-  "name": "aiAnalyzer",
+  "name": "ai_analyzer",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,7 +14,9 @@
   "dependencies": {
     "@langchain/community": "^1.1.4",
     "@langchain/core": "^1.1.15",
+    "@langchain/google-genai": "^2.1.10",
+    "@langchain/textsplitters": "^1.0.1",
     "nodemon": "^3.1.11",
-    "pdf-parse": "^2.4.5"
+    "pdf-parse": "^1.1.4"
   }
 }
